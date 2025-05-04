@@ -80,84 +80,106 @@
   <h1>AP Calculus BC Study Guide</h1>
   <div class="units-container">
     <div class="unit-wrapper">
-      <div class="unit" onclick="toggleSubUnits(event, 1)">Unit 1</div>
+      <div class="unit" onclick="toggleSubUnits(event, 1)">Unit 1: Limits & Continuity</div>
       <div id="sub-units-1" class="sub-units">
-        <div class="sub-unit" onclick="toggleInfo(event, 'Understanding limits, continuity, and evaluating limits graphically and analytically.', 'Find the limit: lim(x→2) (x² - 4)/(x - 2)')">Limits and Continuity</div>
-        <div class="sub-unit" onclick="toggleInfo(event, 'Explore the behavior of functions from one side of a point.', 'Evaluate: lim(x→0⁺) 1/x')">One-Sided Limits</div>
-        <div class="sub-unit" onclick="toggleInfo(event, 'Learn how functions approach infinity near vertical asymptotes.', 'Evaluate: lim(x→0⁺) ln(x)')">Infinite Limits</div>
+        <div class="sub-unit" onclick="toggleInfo(event, 'Average Rate of Change: Measures how a quantity changes over an interval. Substitution: The limit can be obtained by evaluating the value of the function directly. Algebra Magic: When substitution does not work, we can evaluate limits using algebraic methods.', 'AROC: (f(b) - f(a))/(b-a) ___ Sub: lim x -> -2 (x-6)^2/3 ___ AM: lim x -> 2 (((x^2) -3x +2)/((x^2) -4))')">Limits Introduction</div>
+        <div class="sub-unit" onclick="toggleInfo(event, 'Horizontal Asymptotes: If lim as x -> +/- infinity f(x) = a, then y = a is a HA of f(x). Vertical Asymptotes: If lim as x -> a f(x) = +/- infinity, then x =a is a VA of f(x).', 'Find HAs of f(x) = cos(1/x) ___ Find VAs of f(x) = 1/((x^2)-4)')">Limits Involving Infinity</div>
+        <div class="sub-unit" onclick="toggleInfo(event, 'A function is said to be continuous in a given interval if there is no break in the graph of the function in the entire interval range.', 'Evaluate: f(x) = {1, x < 0, sqrt(1-(x^2)), 0 <= x <= 1, x-1, x > 1')">Continuity</div>
+        <div class="sub-unit" onclick="toggleInfo(event, 'A tangent line to the graph of a function at a point is the straight line that just touches the curve at that point and has the same slope as the curve there. It shows the instantaneous rate of change of the function at that point — essentially, how fast the function is changing at that exact spot.', 'Tangent Line: y= f(a) + fprime(a)(x-a)')">Tangent Lines</div>
+
       </div>
     </div>
 
     <div class="unit-wrapper">
-      <div class="unit" onclick="toggleSubUnits(event, 2)">Unit 2</div>
+      <div class="unit" onclick="toggleSubUnits(event, 2)">Unit 2: The Derivative</div>
       <div id="sub-units-2" class="sub-units">
-        <div class="sub-unit" onclick="toggleInfo(event, 'Understand the formal definition of a derivative and average vs. instantaneous rate of change.', 'Use the definition of the derivative to find f\'(x) for f(x) = x².')">Definition of Derivative</div>
-        <div class="sub-unit" onclick="toggleInfo(event, 'Apply rules like product, quotient, and chain rules to differentiate functions.', 'Differentiate: y = (3x² + 2x)(x - 4)')">Derivative Rules</div>
-        <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Implicit Differentiation</div>
+        <div class="sub-unit" onclick="toggleInfo(event, 'Understand the formal definition of a derivative and average vs. instantaneous rate of change.', 'Use the definition of the derivative to find f\'(x) for f(x) = x².')">The Derivative</div>
+        <div class="sub-unit" onclick="toggleInfo(event, 'Apply rules like product, quotient, and chain rules to differentiate functions.', 'Differentiate: y = (3x² + 2x)(x - 4)')">Differentiability</div>
+        <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Differentiation Rules</div>
+        <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Exponentials, Log, & Trig</div>
+
       </div>
     </div>
 
     <div class="unit-wrapper">
-      <div class="unit" onclick="toggleSubUnits(event, 3)">Unit 3</div>
+      <div class="unit" onclick="toggleSubUnits(event, 3)">Unit 3: The Derivative (Again)</div>
       <div id="sub-units-3" class="sub-units">
-        <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic A</div>
-        <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic B</div>
+        <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">The Chain Rule</div>
+        <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Implicit Differentiation</div>
       </div>
     </div>
 
     <div class="unit-wrapper">
-        <div class="unit" onclick="toggleSubUnits(event, 4)">Unit 4</div>
+        <div class="unit" onclick="toggleSubUnits(event, 4)">Unit 4: Applications of Derivatives</div>
         <div id="sub-units-4" class="sub-units">
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic A</div>
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic B</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Simple Applications</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Related Rates</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Local Linearity</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">L'Hopital's Rule</div>
+
         </div>
       </div>
 
       <div class="unit-wrapper">
-        <div class="unit" onclick="toggleSubUnits(event, 5)">Unit 5</div>
+        <div class="unit" onclick="toggleSubUnits(event, 5)">Unit 5: Extrema</div>
         <div id="sub-units-5" class="sub-units">
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic A</div>
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic B</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">First Derivative Test</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Second DErivative Test</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Mean Value Theorem</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Optimization</div>
+
         </div>
       </div>
 
       <div class="unit-wrapper">
-        <div class="unit" onclick="toggleSubUnits(event, 6)">Unit 6</div>
+        <div class="unit" onclick="toggleSubUnits(event, 6)">Unit 6: The Integral</div>
         <div id="sub-units-6" class="sub-units">
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic A</div>
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic B</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Area Under Curves</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Definite Integrals</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Fundamental Theorem of Calculus</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">U-Substitution</div>
+
         </div>
       </div>
 
       <div class="unit-wrapper">
-        <div class="unit" onclick="toggleSubUnits(event, 7)">Unit 7</div>
+        <div class="unit" onclick="toggleSubUnits(event, 7)">Unit 7: Differential Equations</div>
         <div id="sub-units-7" class="sub-units">
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic A</div>
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic B</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Differential Equations</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Seperable Differential Equations</div>
         </div>
       </div>
 
       <div class="unit-wrapper">
-        <div class="unit" onclick="toggleSubUnits(event, 8)">Unit 8</div>
+        <div class="unit" onclick="toggleSubUnits(event, 8)">Unit 8: Applications of the Integral</div>
         <div id="sub-units-8" class="sub-units">
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic A</div>
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic B</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Accumulated Change</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Area Between Curves</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Volume of Solids</div>
+
         </div>
       </div>
 
       <div class="unit-wrapper">
-        <div class="unit" onclick="toggleSubUnits(event, 9)">Unit 9</div>
+        <div class="unit" onclick="toggleSubUnits(event, 9)">Unit 9: Parametric, Vector, & Polar Calculus</div>
         <div id="sub-units-9" class="sub-units">
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic A</div>
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic B</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Parametric Curves</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Vectors</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Polar Curves</div>
+
         </div>
       </div>
 
       <div class="unit-wrapper">
-        <div class="unit" onclick="toggleSubUnits(event, 10)">Unit 10</div>
+        <div class="unit" onclick="toggleSubUnits(event, 10)">Unit 10: Sequences & Series</div>
         <div id="sub-units-10" class="sub-units">
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic A</div>
-          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Subtopic B</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Geometric Series</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Placeholder objective.', 'Placeholder example.')">Power Series</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Taylor Series</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Lagrange Error Bounds</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Convergence</div>
+          <div class="sub-unit" onclick="toggleInfo(event, 'Differentiate equations where y is not isolated.', 'Find dy/dx for x² + y² = 25')">Endpoint Convergence</div>
+
         </div>
       </div>
   </div>
